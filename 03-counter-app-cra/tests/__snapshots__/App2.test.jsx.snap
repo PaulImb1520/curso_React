@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <App/> Debe haacer match con el snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    Soy un título
+  </h1>
+  <p>
+    Ejecutor de Justicia de Neuvillete
+  </p>
+  <p>
+    Paúl Imbaquingo
+  </p>
+</div>
+`;
+
+exports[`Pruebas en <App/> Debe hacer match con el snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    Soy un título
+  </h1>
+  <p>
+    Ejecutor de Justicia de Neuvillete
+  </p>
+  <p>
+    Paúl Imbaquingo
+  </p>
+</div>
+`;
