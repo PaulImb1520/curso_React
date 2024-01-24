@@ -3,7 +3,8 @@ import { useRef } from "react";
 export const FocusScreen = () => {
   const inputRef = useRef();
   const onClick = () => {
-    console.log(inputRef);
+    //console.log(inputRef);
+    inputRef.current.select();
   };
   return (
     <>
@@ -14,9 +15,10 @@ export const FocusScreen = () => {
         type="text"
         placeholder="Ingrese su nombre"
         className="form-control"
-        onClick={onClick}
       />
-      <button className="btn btn-primary mt-2">Set focus</button>
+      <button className="btn btn-primary mt-2" onClick={onClick}>
+        Set focus
+      </button>
     </>
   );
 };
